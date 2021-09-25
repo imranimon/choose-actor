@@ -1,8 +1,10 @@
 .manage-actor-container{
     position: absolute;
-    top: 140px;
+    top: 160px;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    color: rgb(61, 61, 61);
+    padding-bottom: 20px;
 }
 .actors-container{
     display: grid;

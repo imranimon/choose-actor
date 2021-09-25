@@ -1,0 +1,35 @@
+.actor-container{
+    position: relative;
+    padding: 5px;
+    border: 2px solid #bccc81f8;
+    box-shadow:0px 3px 5px 6px #e7f3bdf8; 
+}
+.actor-container:hover{
+    transform: scale(1.01);
+}
+.actor-container button{
+    background-color: #7c8a4af8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+}
+.actor-container button:hover{
+    background-color: #a3b468f8;
+}
+.actor-info{
+    line-height: 10px;
+}
+
+.actor-info p span{
+    font-weight: bold;
+}
+.actor-img{
+    border-bottom: 2px solid #bccc81f8;
+}
+.actor-img img{
+    border-radius: 30%;
+}

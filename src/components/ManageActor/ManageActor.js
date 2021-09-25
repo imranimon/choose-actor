@@ -18,7 +18,8 @@ const ManageActor = () => {
             </div>
             
             <div className="added-actor-container">
-                <h3>List of added actors</h3>
+                <h3><i class="fab fa-monero"></i> Total spent: </h3>
+                <h3><i class="fas fa-users"></i> List of added actors</h3>
             </div>
         </div>
     );

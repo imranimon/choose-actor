@@ -7,6 +7,7 @@
     height: 35px;
     padding-top: 10px;
 }
+
 .header-container a{
     color: aliceblue;
     text-decoration: none;
@@ -20,13 +21,16 @@
     position: fixed;
     top: 45px;
     background-color: #9ead6af8;
-    height: 100px;
+    height: 105px;
     width: 100%;
     line-height: 10px;
     text-align: center;
     color: aliceblue;
+    z-index: 11;
 }
-
+.header-bellow p{
+    font-size: large;
+}
 .bdt{
     font-size: x-large;
 }
