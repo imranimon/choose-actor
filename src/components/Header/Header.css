@@ -1,3 +1,4 @@
+/* Main header style */
 .header-container{
     position: fixed;
     top: 0;
@@ -17,6 +18,7 @@
     font-family:cursive;
 }
 
+/* sub-header style */
 .header-bellow{
     position: fixed;
     top: 45px;

@@ -1,4 +1,5 @@
-.manage-actor-container{
+/* Manage actors conatiner style */
+.manage-actor-container {
     position: absolute;
     top: 160px;
     display: grid;
@@ -6,16 +7,28 @@
     color: rgb(61, 61, 61);
     padding-bottom: 20px;
 }
-.actors-container{
+
+/* All actors container style */
+.actors-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
-    margin-left: 5px;
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+    margin-left: 10px;
 }
-.added-actor-container{
+
+/* Selected actors container style */
+.added-actor-container {
     position: fixed;
     left: 75%;
     right: 0;
     margin-left: 15px;
+}
+
+.selected-actor-container {
+    height: 400px;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-right: 5px;
 }

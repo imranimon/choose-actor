@@ -2,9 +2,9 @@ import React from 'react';
 import './Actor.css'
 
 const Actor = (props) => {
-    console.log(props.actor)
     const { name, age, img, salary, role, gender } = props.actor;
     return (
+        // Actor container
         <div className="actor-container">
             <div className="actor-img">
                 <img width="300" height="250" src={img} alt="" />
@@ -16,7 +16,7 @@ const Actor = (props) => {
                 <p><span>Age: </span>{age}</p>
                 <p><span>Gender: </span>{gender}</p>
             </div>
-            <button><i class="fas fa-user-plus"></i> Add To List</button>
+            <button onClick={()=>{props.onAddNewActor(props.actor)}}><i className="fas fa-user-plus"></i> Add To List</button>
         </div>
     );
 };

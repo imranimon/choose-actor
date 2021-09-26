@@ -1,3 +1,4 @@
+/* Actor container style */
 .actor-container{
     position: relative;
     padding: 5px;
@@ -7,6 +8,27 @@
 .actor-container:hover{
     transform: scale(1.01);
 }
+
+
+/* Actor container's image style */
+.actor-img{
+    border-bottom: 2px solid #bccc81f8;
+}
+.actor-img img{
+    border-radius: 30%;
+}
+
+
+/* Actor container's info style */
+.actor-info{
+    line-height: 10px;
+}
+.actor-info p span{
+    font-weight: bold;
+}
+
+
+/* Actor container's button style */
 .actor-container button{
     background-color: #7c8a4af8;
     border: none;
@@ -19,17 +41,4 @@
 }
 .actor-container button:hover{
     background-color: #a3b468f8;
-}
-.actor-info{
-    line-height: 10px;
-}
-
-.actor-info p span{
-    font-weight: bold;
-}
-.actor-img{
-    border-bottom: 2px solid #bccc81f8;
-}
-.actor-img img{
-    border-radius: 30%;
 }
