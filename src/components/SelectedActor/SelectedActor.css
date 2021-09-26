@@ -1,5 +1,5 @@
 /* Selected actor conatiner style */
-.selected-actor{
+.selected-actor {
     display: flex;
     height: 50px;
     width: 280px;
@@ -9,13 +9,36 @@
     background-color: white;
     border: 1px solid rgb(189, 185, 185);
     border-radius: 8px;
+    justify-content: space-between;
 }
-.selected-actor p{
+
+.selected-actor button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #8e9c5bf8;
+    color: white;
+    border: none;
+
+}
+
+.selected-actor button:hover {
+    background-color: #acbd70f8;
+}
+
+/* Selected actor info conatiner styles */
+.selected-actor-info {
+    display: flex;
+    align-items: center;
+}
+
+.selected-actor-info p {
     margin-left: 10px;
     font-weight: bold;
 }
 
-/* Selected actor conatiner's image style */
-.selected-actor img{
+.selected-actor-info img {
     border-radius: 20%;
 }
